@@ -29,7 +29,8 @@ for stock in liste_stock:
                                                   order="ascending",
                                                   interval="Daily"))
 
-new_liste = ['ishares_us_financials', 'ishares_us_telecommunications', 'ishares_us_industrials', 'ishares_us_consumer_services', 'ishares_us_consumer_goods', 'ishares_us_utilities', 'ishares_us_basic_materials', 'ishares_us_energy', "tsla", "aapl", "jnj"]
+new_liste = ['ishares_us_financials', 'ishares_us_telecommunications', 'ishares_us_industrials', 'ishares_us_consumer_services',
+             'ishares_us_consumer_goods', 'ishares_us_utilities', 'ishares_us_basic_materials', 'ishares_us_energy', "tsla", "aapl", "jnj"]
 
 # Conversion du format date des Data Frames
 for item in new_liste:
